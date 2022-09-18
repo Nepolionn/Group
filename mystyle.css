@@ -1,0 +1,141 @@
+h1{
+    color:#2b10af;
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-size: 35px;
+    background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
+}
+.banner {
+        background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg");
+        width: 1350px;
+        height: 200px;
+        position: relative;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    border-style: dashed;
+    list-style-type:none;
+    width:150px;
+    border-color: #2b10af;
+    border-width: 1.5px;
+    background-color:#2a10af46;
+    padding: 5px 10px 5px 30px;
+} 
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2b10af;
+    font-size: 50px;
+}
+
+h2{
+    color:azure;
+    background-color: #2b10af;
+    font-family:'Franklin Gothic Medium';
+
+}
+
+.Man {
+    float:left;
+    margin: 0px 10px 2px 0px;
+        
+}
+
+#Photo2{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 350px;
+   height:  270px;
+  
+}
+
+#grading{
+    background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
+}
+table{
+    background-color: rgba(240, 248, 255, 0.674);
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    color:azure;
+    background-color: #2b10af;
+    font-family:'Franklin Gothic Medium'
+}
+.Article1{
+    background-color: #2a10af46; 
+    border-style: dashed;
+    border-color: #2b10af;
+    
+}
+.Article2{
+    background-color: #2a10af46;
+    border-style: dashed; 
+    border-color: #2b10af;
+    
+}
+.Article3{
+    background-color: #2a10af46; 
+    border-style: dashed;
+    border-color: #2b10af;
+    
+
+}
+/* active link */
+a:active {
+  color: #2b10af;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 18px
+}
+/*visited*/
+a:visited {
+  color: grey;
+}
+
+[class|=menu] {
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+}
+
+.logo {
+    width:  150px;
+    height: 150px;
+}
+.Man {
+    width:  400px;
+    height: 300px;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px 5%;
+    background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
+}
+.contacts{
+    
+    background-color:rgba(255, 255, 255, 0.651);
+    display: flex;
+}
+.Articles{
+    display: flex;
+}
+
