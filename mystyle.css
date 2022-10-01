@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px)) {
-  h1 {
+  header {
     order: 1;
     width: 100%;
   }
@@ -11,10 +11,32 @@
     order: 1;
     width: 100%;}
   }
+ 
+}
+
+@media screen and (max-width: 768px)) {
   ul {
+    order: 1;
+    width: 100%;
+  }
+  li {
+    order: 1;
+    width: 100%;
+  }
+  h1{
     order: 2;
-    width: 100%;}
- }
+    width: 100%;
+  }
+  h2{
+    width: 100%;
+  }
+  .Man{
+    order: 1;
+    width: 50%;
+  }
+  p{
+    width: 100%;
+  }
 }
 
 h1{
@@ -181,8 +203,3 @@ footer{
       }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
