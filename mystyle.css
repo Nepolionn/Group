@@ -139,3 +139,16 @@ footer{
     display: flex;
 }
 
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        background-color: rgb(255, 253, 253);
+      }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
