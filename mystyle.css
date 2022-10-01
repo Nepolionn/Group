@@ -1,3 +1,22 @@
+@media screen and (max-width: 768px)) {
+  h1 {
+    order: 1;
+    width: 100%;
+  }
+  .banner {
+    order: 1;
+    width: 100%;}
+  }
+  .logo {
+    order: 1;
+    width: 100%;}
+  }
+  ul {
+    order: 2;
+    width: 100%;}
+ }
+}
+
 h1{
     color:#2b10af;
     text-align: center;
@@ -10,11 +29,6 @@ h1{
         width: 1350px;
         height: 200px;
         position: relative;
-}
-@media screen and (max-width: 767px) {
-    .banner {
-        width: 100%;
-      }
 }
 .logo {
     position: absolute;
@@ -165,4 +179,10 @@ footer{
     body {
         width: 100%;
       }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
