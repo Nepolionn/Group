@@ -4,32 +4,6 @@
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
-  .logo {
-    width: 20%;
-  } 
-}
-  
-@media screen and (max-width: 767px) {
-  .menu{
-    width: 100%;
-  }
-  h1{
-    width: 100%;
-  }
-  h2{
-    width: 100%;
-  }
-
-  p{
-    width: 100%;
-  }
-  li{
-    width: 100%;
-    
-  }
-}
-
 h1{
     color:#2b10af;
     text-align: center;
@@ -39,32 +13,53 @@ h1{
 }
 .banner {
         background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg");
-        width: auto;
+        width: 1350;
         height: 200px;
         position: relative;
-
 }
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .baner{
+    width: 100%;
+   }
+}
+
 .logo {
     position: absolute;
     top: 25px;
     left: 50px;
     width: 150px;
     height: 150px;
+    display: block;
 }
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .logo{
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+   }
+}
+
 
 ul {
     display: flex;
     justify-content: center;
 }
 
+
 li{
     border-style: dashed;
     list-style-type:none;
-    width:auto;
+    width: 300px;
     border-color: #2b10af;
     border-width: 1.5px;
     background-color:#2a10af46;
     padding: 5px 10px 5px 30px;
+} 
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  li{
+    width: 100%;
+  }
 } 
 
 header{
@@ -73,9 +68,13 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #2b10af;
     font-size: 50px;
-    display: block;
 }
 
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  header{
+    font-size: 35px;
+  }
+} 
 h2{
     color:azure;
     background-color: #2b10af;
@@ -150,6 +149,7 @@ a:visited {
 [class|=menu] {
     padding: 10px 30px 10px 30px;
     font-size: 18px;
+  
 }
 
 .logo {
@@ -191,18 +191,28 @@ footer{
       }
 }
 .map{
-    width: 200px;
-    height: 100px;
     display: flex;
 }
-@media screen and (max-width: 767px) {
-    .map {
-        width: 100%;
-        order: 2;
-        position: relative;
+@media screen and (min-width: 578px) and  (max-width: 767px) {
+
+    .contacts {
+      width: 100%;
       }
-      .contacts {
-        order: 1;
-        width: 100%;
-      }
+}
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  body{
+    width: 100%;
+  }
+}
+  
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  
+  p{
+    font-size: 100%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 767px){
+   .menu{
+     width: 40%;
+  }
 }
