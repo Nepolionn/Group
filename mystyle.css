@@ -14,19 +14,12 @@ h1{
 @media screen and (max-width: 767px) {
     .banner {
         width: 100%;
-        background-color: rgb(255, 253, 253);
       }
 }
 .logo {
     position: absolute;
     top: 25px;
     left: 50px;
-}
-@media screen and (max-width: 767px) {
-    .logo {
-        width: 100%;
-        background-color: rgb(255, 253, 253);
-      }
 }
 
 ul {
@@ -168,11 +161,8 @@ footer{
         background-color: rgb(255, 253, 253);
       }
 }
-
-
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+      }
 }
-
