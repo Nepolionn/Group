@@ -1,41 +1,32 @@
-@media screen and (max-width: 768px)) {
-  header {
-    order: 1;
-    width: 100%;
-  }
-  .banner {
-    order: 1;
-    width: 100%;}
-  }
-  .logo {
-    order: 1;
-    width: 100%;}
-  }
- 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 768px)) {
-  ul {
-    order: 1;
-    width: 100%;
-  }
-  li {
-    order: 1;
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 20%;
+  } 
+}
+  
+@media screen and (max-width: 767px) {
+  .menu{
     width: 100%;
   }
   h1{
-    order: 2;
     width: 100%;
   }
   h2{
     width: 100%;
   }
-  .Man{
-    order: 1;
-    width: 50%;
-  }
+
   p{
     width: 100%;
+  }
+  li{
+    width: 100%;
+    
   }
 }
 
@@ -48,14 +39,17 @@ h1{
 }
 .banner {
         background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg");
-        width: 1350px;
+        width: auto;
         height: 200px;
         position: relative;
+
 }
 .logo {
     position: absolute;
     top: 25px;
     left: 50px;
+    width: 150px;
+    height: 150px;
 }
 
 ul {
@@ -66,7 +60,7 @@ ul {
 li{
     border-style: dashed;
     list-style-type:none;
-    width:150px;
+    width:auto;
     border-color: #2b10af;
     border-width: 1.5px;
     background-color:#2a10af46;
@@ -79,6 +73,7 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #2b10af;
     font-size: 50px;
+    display: block;
 }
 
 h2{
@@ -167,14 +162,13 @@ a:visited {
 }
 footer{
     margin-top: 100px;
-    width: 90%;
+    width: auto;
     padding: 20px 5%;
     background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
 }
 @media screen and (max-width: 767px) {
     footer{
         width: 100%;
-        background-color: rgb(255, 253, 253);
       }
 }
 .contacts{
@@ -185,7 +179,6 @@ footer{
 @media screen and (max-width: 767px) {
     .contacts {
         width: 100%;
-        background-color: rgb(255, 253, 253);
       }
 }
 .Articles{
@@ -197,9 +190,19 @@ footer{
         background-color: rgb(255, 253, 253);
       }
 }
+.map{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
 @media screen and (max-width: 767px) {
-    body {
+    .map {
+        width: 100%;
+        order: 2;
+        position: relative;
+      }
+      .contacts {
+        order: 1;
         width: 100%;
       }
 }
-
