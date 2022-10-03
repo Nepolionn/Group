@@ -4,6 +4,52 @@
   padding: 0;
 }
 
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style-type: none; 
+}
+footer {
+    background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ; 
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid red;
+}
+footer li {
+  display: block;
+  width: 100%;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    order: 3;
+    margin-left: auto;  
+}
+.contacts{
+    
+    background-color:rgba(255, 255, 255, 0.651);
+    display: flex;
+    order: 1;
+    width: 50%;
+
+}
+.map{
+    width: 50% ;
+    margin-left: auto;
+
+}
+.quick_links{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    order: 3; 
+    margin-right: auto;
+}
+
 h1{
     color:#2b10af;
     text-align: center;
@@ -13,33 +59,15 @@ h1{
 }
 .banner {
         background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg");
-        width: 1350;
+        width: auto;
         height: 200px;
         position: relative;
 }
-@media only screen and (min-width: 200px) and (max-width: 767px) {
-  .baner{
-    width: 100%;
-   }
-}
-
 .logo {
     position: absolute;
     top: 25px;
     left: 50px;
-    width: 150px;
-    height: 150px;
-    display: block;
 }
-@media only screen and (min-width: 200px) and (max-width: 767px) {
-  .logo{
-    top: 0;
-    left: 0;
-    width: 25px;
-    height: 25px;
-   }
-}
-
 
 ul {
     display: flex;
@@ -47,20 +75,6 @@ ul {
 }
 
 
-li{
-    border-style: dashed;
-    list-style-type:none;
-    width: 300px;
-    border-color: #2b10af;
-    border-width: 1.5px;
-    background-color:#2a10af46;
-    padding: 5px 10px 5px 30px;
-} 
-@media only screen and (min-width: 300px) and (max-width: 767px) {
-  li{
-    width: 100%;
-  }
-} 
 
 header{
     text-align: center;
@@ -70,11 +84,6 @@ header{
     font-size: 50px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 767px) {
-  header{
-    font-size: 35px;
-  }
-} 
 h2{
     color:azure;
     background-color: #2b10af;
@@ -87,6 +96,12 @@ h2{
     margin: 0px 10px 2px 0px;
         
 }
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    .Man {
+        max-width: 70%;
+        max-height: 40%;
+    }
+}
 
 #Photo2{
    display: block;
@@ -96,15 +111,48 @@ h2{
    height:  270px;
   
 }
+ul {
+    display: flex;
+    justify-content: center;
+}
 
+
+.menu li{
+    border-style: dashed;
+    text-align: center;
+    list-style-type:none;
+    border-color: #2b10af;
+    border-width: 1.5px;
+    background-color:#2a10af46;
+    padding: 5px 10px 5px 30px;
+    width: 900px;
+} 
+li{
+    border-style: dashed;
+    text-align: center;
+    list-style-type:none;
+    border-color: #2b10af;
+    border-width: 1.5px;
+    background-color:#2a10af46;
+    padding: 5px 10px 5px 30px;
+    width: 200px;
+}
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    li {
+        width: 100%;
+        text-align: center;
+    }
+} 
 #grading{
     background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
 }
+
 table{
     background-color: rgba(240, 248, 255, 0.674);
     margin-left: auto;
     margin-right: auto;
 }
+
 h3{
     color:azure;
     background-color: #2b10af;
@@ -149,7 +197,6 @@ a:visited {
 [class|=menu] {
     padding: 10px 30px 10px 30px;
     font-size: 18px;
-  
 }
 
 .logo {
@@ -160,59 +207,117 @@ a:visited {
     width:  400px;
     height: 300px;
 }
-footer{
-    margin-top: 100px;
-    width: auto;
-    padding: 20px 5%;
-    background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
-}
-@media screen and (max-width: 767px) {
-    footer{
-        width: 100%;
-      }
-}
+
+
 .contacts{
     
     background-color:rgba(255, 255, 255, 0.651);
     display: flex;
 }
-@media screen and (max-width: 767px) {
-    .contacts {
-        width: 100%;
-      }
-}
 .Articles{
     display: flex;
 }
-@media screen and (max-width: 767px) {
-    .Articles {
-        width: 100%;
-        background-color: rgb(255, 253, 253);
-      }
-}
-.map{
-    display: flex;
-}
-@media screen and (min-width: 578px) and  (max-width: 767px) {
 
-    .contacts {
-      width: 100%;
+.Articles{
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid red;
+}
+.Article1{
+  order: 1;
+  background-color: azure;
+  width: 50%;
+}
+
+.Article2 {
+  order: 2;
+  background-color: #CFA7FF;
+  width: 50%;
+}
+
+.Article3{
+  order: 3;
+  background-color: #FFCAFB;
+  width: 100%;
+}
+p::first-letter{
+      color:purple;
+      font-weight:bold ;
+    }
+p::first-line{ 
+      color: black;
+    }
+
+@media only screen and (min-width: 450px) and  (max-width: 767px) {
+    .banner {
+     font-size: 40px;
+     text-align: center;
+     width: 100%;
+     height: 20%;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 767px) {
+    footer{
+        width: 100%;
       }
 }
-@media only screen and (min-width: 300px) and (max-width: 767px) {
-  body{
-    width: 100%;
-  }
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    .menu {
+        flex-wrap: wrap;
+
+    } 
 }
-  
-@media only screen and (min-width: 300px) and (max-width: 767px){
-  
-  p{
-    font-size: 100%;
-  }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .logo img {
+    max-width: 25%;
+    max-height: 25%;
+   }
 }
-@media only screen and (min-width: 300px) and (max-width: 767px){
-   .menu{
-     width: 40%;
-  }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .logo  {
+    top: 5px;
+    left: 0px;
 }
+}
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    .contacts{
+        display: flex;
+        flex-direction: column;
+
+    }    
+}
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    .map{
+        margin-left: 0%;
+    }    
+}
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    p {
+     width: 100%;
+    }
+}
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    .sett{
+       display: flex;
+       flex-direction: column;
+       max-width: 100%;
+    }
+}
+@media screen  and (min-width: 450px) and  (max-width: 767px) {
+    .require {
+       display: flex;
+       flex-direction: column;
+       max-width: 100%;
+    }
+}
+@media screen and (min-width: 450px) and  (max-width: 767px) {
+    .selectt{
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+}
+
+
+
+
