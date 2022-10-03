@@ -25,9 +25,10 @@ footer li {
 .categories {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 10%;
     order: 3;
-    margin-left: auto;  
+    margin-right: 30px;  
 }
 .contacts{
     
@@ -45,9 +46,10 @@ footer li {
 .quick_links{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 10%;
-    order: 3; 
-    margin-right: auto;
+    order: 4; 
+    margin-left: 80px;
 }
 
 h1{
@@ -214,6 +216,11 @@ a:visited {
     background-color:rgba(255, 255, 255, 0.651);
     display: flex;
 }
+.map iframe{
+   position: relative;
+   width: 300px;
+   height: 200px;
+ }
 .Articles{
     display: flex;
 }
@@ -282,6 +289,7 @@ p::first-line{
     .contacts{
         display: flex;
         flex-direction: column;
+        width: 40%;
 
     }    
 }
@@ -316,7 +324,12 @@ p::first-line{
        width: 100%;
     }
 }
-
+@media screen and (min-width: 0px) and  (max-width: 767px) {
+    .map iframe {
+       width: 40%;
+       height: 30%;
+       position: absolute;
+    }
 
 
 
