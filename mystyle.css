@@ -37,7 +37,7 @@ footer li {
   display: block;
   width: 100%;
   text-align: center;
-  margin: 0px 0px 2px 20px;
+  margin: 0px 0px 2px;
 }
 .categories {
     display: flex;
@@ -45,7 +45,8 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 3;
-    margin-right: 30px;  
+    margin-right: 50px;  
+    border-radius: 30px;
 }
 .contacts{
     
@@ -60,13 +61,13 @@ footer li {
     margin-left: auto;
 
 }
-.quick_links li{ 
-    border-radius: 30px;
-    
+.quick_links li{
+  border-radius: 30px;
+  margin-right: 50px;
 }
-.quick_links li{ 
-    border-radius: 30px;
-    
+.categories li {
+ border-radius: 30px;
+ margin-right: 30px;
 }
 .quick_links {
     display: flex;
@@ -74,7 +75,8 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 4; 
-    margin-left: 80px;
+    margin-left: 40px;
+    border-radius: 30px;
 }
 
 h1{
