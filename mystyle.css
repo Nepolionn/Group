@@ -76,7 +76,7 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 4; 
-    margin-left: 60px;
+    margin-left: 70px;
     
 }
 
@@ -241,7 +241,7 @@ a:active {
 
 /* mouse over link */
 a:hover {
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 18px
 }
