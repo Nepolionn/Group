@@ -45,7 +45,7 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 3;
-    margin-right:40px;  
+    margin-left:30px;  
     
 }
 .contacts{
@@ -58,7 +58,7 @@ footer li {
 }
 .map{
     width: 50% ;
-    margin-left: auto;
+    margin-left: 10%;
 
 }
 .quick_links li{
@@ -76,7 +76,7 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 4; 
-    margin-left: 10%;
+    margin-left: 60px;
     
 }
 
