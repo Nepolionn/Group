@@ -45,7 +45,7 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 3;
-    margin-right:50px;  
+    margin-right:40px;  
     
 }
 .contacts{
@@ -63,6 +63,7 @@ footer li {
 }
 .quick_links li{
   border-radius: 30px;
+
   
 }
 .categories li {
@@ -75,6 +76,7 @@ footer li {
     flex-wrap: wrap;
     width: 10%;
     order: 4; 
+    margin-left: 10%;
     
 }
 
