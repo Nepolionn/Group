@@ -33,6 +33,7 @@ footer {
     flex-wrap: wrap;
     
 }
+
 footer li {
   display: block;
   width: 100%;
@@ -47,6 +48,13 @@ footer li {
     order: 3;
     margin-left:10px;  
     
+}
+@media screen and (min-width: 768px) and  (max-width: 1400px) {
+    .categories li{
+       background-color: #96DED1 ;
+       border-style: dashed;
+       border-color: white;
+    }
 }
 .contacts{
     
@@ -69,6 +77,13 @@ footer li {
 .categories li {
  border-radius: 30px;
 
+}
+@media screen and (min-width: 768px) and  (max-width: 1400px) {
+    .quick_links li{
+       background-color: #96DED1 ;
+       border-style: dashed;
+       border-color: white;
+    }
 }
 .quick_links {
     display: flex;
@@ -166,23 +181,30 @@ ul {
     border-style: dashed;
     border-radius: 30px;
 }
+@media screen and (min-width: 768px) and  (max-width: 1400px) {
+    .names li{
+       background-color: #96DED1 ;
+       border-color: white;
+    }
+}
 .menu li{
     border-style: dashed;
     text-align: center;
     list-style-type:none;
     border-color: #2b10af;
-    border-width: 1.5px;
+    border-width: 3px;
     background-color:#2a10af46;
     padding: 5px 10px 5px 30px;
     width: 900px;
     border-radius: 30px;
+
 } 
 li{
-    border-style: double;
+    border-style: solid;
     text-align: center;
     list-style-type:none;
-    border-color: #2b10af;
-    border-width: 1.5px;
+    border-color: white;
+    border-width: 4px;
     background-color:#2a10af46;
     padding: 5px 10px 5px 30px;
     width: 200px;
@@ -204,6 +226,7 @@ li{
 }
 #grading{
     background-image: url("depositphotos_232252262-stock-photo-bouquet-purple-wildflowers-watercolor-background.jpg") ;
+    height: 100%;
 }
 
 table{
@@ -217,22 +240,9 @@ h3{
     background-color: #2b10af;
     font-family:'Franklin Gothic Medium'
 }
-.Article1{ 
-    border-style: dashed;
-    border-color: #2b10af;
-    
-}
-.Article2{
-    border-style: dashed; 
-    border-color: #2b10af;
-    
-}
-.Article3{
-    border-style: dashed;
-    border-color: #2b10af;
-    
 
-}
+
+
 /* active link */
 a:active {
   color: #2b10af;
@@ -272,13 +282,15 @@ a:visited {
    width: 300px;
    height: 200px;
  }
-.Articles{
-    display: flex;
-}
+
 
 .Articles{
   display: flex;
   flex-wrap: wrap;
+  border-style: dashed;
+  border-color: #2b10af;
+  border-width: 4px;
+  
 }
 .Article1{
   order: 1;
@@ -355,6 +367,13 @@ p::first-line{
      font-size: 105%;
     }
 }
+@media screen and (min-width: 768px) {
+  p{
+    font-size: 100%;
+    width: 99%;
+  } 
+}
+
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
     .email{
      width: 100%;
@@ -383,6 +402,12 @@ p::first-line{
     h2 {
      width: 100%;
      font-size: 105%;
+    }
+}
+@media screen and (min-width: 768px) and  (max-width: 1400px) {
+    h2{
+       background-color: #96DED1 ;
+       text-align: center;
     }
 }
 @media screen  and (min-width: 300px) and  (max-width: 767px) {
@@ -432,80 +457,4 @@ p::first-line{
        position: absolute;
     }
 
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .banner {
-     font-size: 40px;
-     text-align: center;
-     width: 100%;
-     height: 20%;
-  }
-}
-@media screen and (min-width: 768px)and (max-width: 1400px) { 
-    footer{
-        width: 100%;
-      }
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .menu {
-        flex-wrap: wrap;
-
-    } 
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-  .logo img {
-    max-width: 25%;
-    max-height: 25%;
-   }
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-  .logo  {
-    top: 5px;
-    left: 0px;
-}
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .contacts{
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-
-    }    
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .map{
-    }    
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    p {
-     width: 100%;
-
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .sett{
-       display: flex;
-       flex-direction: column;
-       max-width: 100%;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .require {
-       display: flex;
-       flex-direction: column;
-       max-width: 100%;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .selectt{
-       display: flex;
-       flex-wrap: wrap;
-       width: 100%;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1400px) { 
-    .map iframe {
-       width: 40%;
-       height: 30%;
-       position: absolute;
-    }
-}
+   
