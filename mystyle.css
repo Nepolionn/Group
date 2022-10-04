@@ -34,10 +34,10 @@ footer {
     
 }
 footer li {
-  display: flex;
+  display: block;
   width: 100%;
   text-align: center;
-  margin: 0px 0px 2px 20px;
+  margin: 0px 0px 2px ;
 }
 .categories {
     display: flex;
@@ -98,7 +98,7 @@ h1{
 
 
 ul {
-    display: flex;
+    display: block;
     text-align: left;
 
 }
